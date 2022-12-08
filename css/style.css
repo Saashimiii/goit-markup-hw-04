@@ -330,19 +330,18 @@ nav {
 
 /* підвал */
 
-.footer-address {
-    margin-left: 215px;
-}
-.container .footer-inform { 
-    display: flex;
-    align-items: baseline;
-}
+
+
 
 .logo-footer {
     display: block;
     margin-bottom: 20px;
 }
 
+.page-footer .container {
+    display: flex;
+    align-items: baseline;
+}
 
 .page-footer {
     background: #2F303A;
@@ -375,8 +374,11 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 color: #FFFFFF;
+}
+
+.list-social {
+    list-style-type: none;
 }
 
 .add li:not(:last-child) {
