@@ -367,6 +367,18 @@ nav {
     margin-left: 70px;
 }
 
+.footer-social-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
 .add li:not(:last-child) {
     margin-bottom: 6px;
 }
