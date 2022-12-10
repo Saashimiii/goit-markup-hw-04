@@ -23,7 +23,7 @@ p {
 .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
 
@@ -51,16 +51,17 @@ a {
 
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .color-logo {
-    color: #2196F3;
+    color: #4D5AE5;
 }
 
 /* Навігація  */
@@ -88,18 +89,23 @@ nav {
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #2E2F42;
+
 
 
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: #2196F3;
+    color: #434455;
+}
+
+.site-nav a:active {
+    color: #4D5AE5;
 }
 
 /* Контакти */
@@ -116,20 +122,17 @@ nav {
 .contact a {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: #434455;
 
 }
 
-.contact a:hover {
-    color: #2196F3;
-}
-
+.contact a:hover,
 .contact a:focus {
-    color: #2196F3;
+    color: #4D5AE5;
 }
 
 /* Ефективні рішення */
@@ -149,21 +152,20 @@ nav {
 
 
 .main-text {
-    width: 696px;
+    width: 492px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 48px;
 
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
+    font-weight: 600;
+    font-size: 56px;
     line-height: 60px;
     text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -328,6 +330,22 @@ nav {
     color: #212121;
 }
 
+/* компанії */
+
+.custom {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers-name {
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+
+
 /* підвал */
 
 
@@ -353,12 +371,13 @@ nav {
     display: inline-block;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 
@@ -368,13 +387,13 @@ nav {
 
 .footer-social-text {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .list-social {
@@ -488,8 +507,8 @@ color: #FFFFFF;
 }
 
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section.no-padding {
