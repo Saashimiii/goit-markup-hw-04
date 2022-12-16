@@ -557,6 +557,7 @@ nav {
 
 
 .portfolio-text {
+    width: 360px;
     padding: 20px 24px;
     border-left: 0.5px solid #F4F4FD;
     border-right: 0.5px solid #F4F4FD;
@@ -565,7 +566,6 @@ nav {
 
 .port-h {
     margin-bottom: 8px;
-
 
     font-family: 'Roboto';
     font-style: normal;
