@@ -352,8 +352,8 @@ nav {
 }
 
 .team-socitem {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
 }
 
 .team-soclink {
@@ -366,11 +366,7 @@ nav {
     justify-content: center;
 }
 
-.web-soc-icon {
-    width: 12px;
-    height: 12px;
-    fill: currentColor;
-}
+
 
 .company-h {
     background: #F5F4FA;
