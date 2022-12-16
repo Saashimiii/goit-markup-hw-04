@@ -152,7 +152,7 @@ nav {
 
 
 .main-text {
-    width: 492px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -175,14 +175,14 @@ nav {
     padding: 10px 32px;
     display: inline-block;
     border: none;
-    background: #2196F3;
+    background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 19px;
     color: #FFFFFF;
     cursor: pointer;
     text-align: center;
@@ -191,7 +191,15 @@ nav {
 
 .button-buy:hover,
 .button-buy:focus {
-    background: #188CE8;
+    background: #4D5AE5;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 4px;
+}
+
+.button-buy:active {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 
@@ -214,7 +222,7 @@ nav {
 }
 
 .main-list .item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 24px;
 }
 
 .main-list li {
@@ -228,12 +236,11 @@ nav {
     margin-bottom: 10px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 
 
 
@@ -245,10 +252,10 @@ nav {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .name-card {
@@ -281,11 +288,12 @@ nav {
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: #212121;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .name-pos {
@@ -294,12 +302,25 @@ nav {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: #757575;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
+.social-link {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 4px 0px;
+    gap: 24px;
+    width: 232px;
+    height: 48px;
 
+}
 
 
 .company-h {
@@ -388,11 +409,10 @@ nav {
 .footer-social-text {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -404,14 +424,19 @@ nav {
     margin-bottom: 6px;
 }
 
-.address-text {
+.footer-about {
+    width: 264px;
+    height: 110px;
+}
+
+.footer-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
 
 .contact-foot a {
@@ -464,8 +489,8 @@ nav {
 
 .portfolio-card {
     background: #FFFFFF;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-right: 24px;
+    margin-bottom: 48px;
     width: calc((100% - 60px) / 3);
 }
 
@@ -476,22 +501,23 @@ nav {
 
 .portfolio-text {
     padding: 20px 24px;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-left: 0.5px solid #F4F4FD;
+    border-right: 0.5px solid #F4F4FD;
+    border-bottom: 0.5px solid #F4F4FD;
 }
 
 .port-h {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 
 
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
 
 }
 
@@ -501,9 +527,9 @@ nav {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .section {
