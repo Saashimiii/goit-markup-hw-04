@@ -341,20 +341,36 @@ nav {
     color: #434455;
 }
 
-.social-link {
-    list-style-type: none;
+.team-soclist {
+    padding: 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: auto;
-    padding: 4px 0px;
-    gap: 24px;
-    width: 232px;
-    height: 48px;
-
+    gap: 10px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    list-style-type: none;
 }
 
+.team-socitem {
+    width: 44px;
+    height: 44px;
+}
+
+.team-soclink {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-soc-icon {
+    width: 12px;
+    height: 12px;
+    fill: currentColor;
+}
 
 .company-h {
     background: #F5F4FA;
