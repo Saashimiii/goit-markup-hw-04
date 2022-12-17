@@ -32,7 +32,9 @@ p {
 
 /* шапка */
 .page-header {
-    border-bottom: 1px solid #ECECEC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 a {
@@ -417,9 +419,16 @@ nav {
 }
 
 .customers-icon {
-    background: #8E8F99;
+    width: 104px;
+    height: 56px;
+    margin: 16px 32px;
+    fill: #8E8F99;
+   
 }
 
+.customers-icon:hover {
+    fill: #4D5AE5;
+}
 
 /* підвал */
 
@@ -501,6 +510,37 @@ nav {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF99
+}
+
+.list-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.item-social {
+    width: 40px;
+    height: 40px;
+}
+
+.item-social:not(:last-child) {
+    margin-right: 16px;
+}
+
+.footer-item {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-item:hover {
+    background-color: #31D0AA;;
+}
+.footer-link {
+    padding: 8px 8px;
 }
 
 /* ПОРТФОЛІО */
