@@ -364,8 +364,8 @@ nav {
 }
 
 .team-soclink {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
     display: flex;
@@ -417,7 +417,9 @@ nav {
 
 
 .customers-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 168px;
     height: 88px;
     border: 1px solid #8E8F99;
@@ -427,12 +429,16 @@ nav {
 .customers-link:hover, .customers-link:focus {
     border: 1px solid #4D5AE5;
     border-radius: 4px;
+    
 }
+
 
 .customers-icon {
     width: 104px;
     height: 56px;
-    margin: 16px 32px;
+    margin: 0;
+    align-content: center;
+
     fill: #8E8F99;
    
 }
