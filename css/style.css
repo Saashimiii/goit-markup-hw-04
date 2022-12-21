@@ -415,7 +415,6 @@ nav {
 }
 
 
-
 .customers-link {
     display: flex;
     justify-content: center;
@@ -429,7 +428,7 @@ nav {
 .customers-link:hover, .customers-link:focus {
     border: 1px solid #4D5AE5;
     border-radius: 4px;
-    
+    fill: #4D5AE5;
 }
 
 
@@ -439,13 +438,11 @@ nav {
     margin: 0;
     align-content: center;
 
-    fill: #8E8F99;
+    fill: #8E8F99;;
    
 }
 
-.customers-icon:hover, .customers-icon:focus{
-    fill: #4D5AE5;
-}
+
 
 /* підвал */
 
